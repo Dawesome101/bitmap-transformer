@@ -26,7 +26,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'bitmap.transformer.App'
+    mainClass = 'bitmap.transformer.TransformerApp'
 }
 
 tasks.named('test') {
