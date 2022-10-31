@@ -10,7 +10,6 @@ import java.util.Arrays;
 // Much of our reference came from https://stackoverflow.com/questions/16475482/how-can-i-load-a-bitmap-image-and-manipulate-individual-pixels
 public class Bitmap {
     BufferedImage bitmap;
-
     int height;
     int width;
 
@@ -54,9 +53,6 @@ public class Bitmap {
             for (int x = 0; x < width; x++) {
                 int rgb = bitmap.getRGB(x, y);
                 Color color = new Color(rgb);
-//                int red = color.getRed();
-//                int green = color.getGreen() ;
-//                int blue = color.getBlue() ;
 
                 bitmap.setRGB(x, y, color.brighter().getRGB());
             }
