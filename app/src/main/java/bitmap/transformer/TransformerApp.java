@@ -15,7 +15,7 @@ public class TransformerApp {
         }
 
         if(transformType.equals("tib")){
-            bitmap.tranformIncreaseBrightness(outputFile);
+            bitmap.transformIncreaseBrightness(outputFile);
         }
     }
 }
