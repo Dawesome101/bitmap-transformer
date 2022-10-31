@@ -1,8 +1,12 @@
 # bitmap-transformer
 
-Designed to transform and mutate a bitmap file.
+![Origin](./app/src/main/resources/baldy-8bit.bmp)
+
+This is the original file used for examples.
 
 ## Transform Black & White
+
+![Black and White](./app/src/main/resources/test2.bmp)
 
 Takes in a bitmap and transforms the image to greyscale.
 
@@ -14,6 +18,8 @@ Example:
 
 
 ## Transform Increase Brightness
+
+- ![Increase Brightness](./app/src/main/resources/test1.bmp)
 
 Increases the brightness level of an image.
 
