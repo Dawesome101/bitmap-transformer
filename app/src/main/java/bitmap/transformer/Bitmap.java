@@ -47,7 +47,7 @@ public class Bitmap {
         }
     }
 
-    public void tranformIncreaseBrightness(File file){
+    public void transformIncreaseBrightness(File file){
 
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
